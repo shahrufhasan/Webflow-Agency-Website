@@ -13,6 +13,7 @@
   padding: 12px 36px;
   border: 1px solid #4e47ff;
   border-radius: 10px;
+  font-size: 16px;
   font-weight: bold;
 }
 .btn-primary:hover {
@@ -38,8 +39,9 @@ nav {
   padding: 50px 150px;
 }
 .nav-title {
+  font-family: "Inter", sans-serif;
   font-size: 34px;
-  font-weight: bold;
+  font-weight: 800;
   color: #4e47ff;
   text-transform: uppercase;
 }
@@ -136,6 +138,10 @@ nav a {
   padding: 48px 24px;
   border-radius: 10px;
 }
+.client-card:hover {
+  box-shadow: 10px 10px 10px #2524322f;
+  transition: all 0.2s linear;
+}
 .card-title {
   margin: 15px 0px;
 }
@@ -166,7 +172,7 @@ nav a {
 .focus-section {
   text-align: center;
   background-color: #fff;
-  margin: 130px 150px;
+  margin: 100px 150px;
   padding: 70px 150px;
   border-radius: 14px;
 }
@@ -189,16 +195,21 @@ nav a {
 /* Contact Section */
 .contact-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  margin: 0px 150px;
-  padding: 15px;
+  width: 100%;
+  padding: 100px;
 }
 .contact-title {
-  font-size: 120px;
+  font-size: 100px;
+  padding: 40px;
+  width: 50%;
 }
 .contact-from {
   width: 100%;
+}
+legend {
+  color: #000000;
 }
 form input[type="email"],
 form input[type="text"] {
@@ -257,4 +268,9 @@ footer {
 .footer-links a {
   color: #8987a1;
   text-decoration: none;
+}
+.footer-links a:hover {
+  color: #000000;
+  font-weight: 400;
+  transition: all 0.2s linear;
 }
