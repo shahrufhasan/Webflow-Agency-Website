@@ -230,5 +230,31 @@ form textarea {
 
 /* Footer Section */
 footer {
-  padding: 100px;
+  height: 450px;
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 500px 200px 500px;
+}
+.footer-logo {
+  font-family: "Inter", sans-serif;
+  color: #4e47ff;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.footer-description {
+  color: #8987a1;
+  padding: 30px 200px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 220px;
+}
+.footer-links li {
+  list-style: none;
+}
+.footer-links a {
+  color: #8987a1;
+  text-decoration: none;
 }
